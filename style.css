@@ -1,0 +1,118 @@
+* {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: large;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-image: url("images/teach.png");
+    
+    /*Sizing of the element*/
+    height: 400px;
+    width: 100%;
+
+    /*Text Align*/
+    text-align: center;
+}
+
+#nav-picture{
+    height: 50px;
+}
+
+.light-green {
+    background-color: lightgreen;
+    opacity: 0.8;
+    color: black;
+}
+
+section, footer{
+    max-width: 100vw !important;
+}
+
+/* Problem */
+#problem {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ff412c33;
+}
+.list-group-item {
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+/* Solution */
+#solution {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffdf2c33;
+}
+.solution-column {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* background-color: #5dcd53; */
+}
+#solution i {
+    /*Adjust the size and position of the icon*/
+    font-size: 20px;
+    padding: 15px 18px;
+    /* margin-bottom: 50px; */
+
+    /*Color changes the color of the icon*/
+    color: black;
+    background-color: lightgreen;
+
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+
+/* Team */
+#team {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2cd8ff33;
+}
+#team img {
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Conctact */
+#contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#contact-row{
+    margin-top: 30px;
+}
+#contact .input-group {
+    margin-bottom: 10px;
+  }
+
+#contact i{
+    padding: 10px 20px 10px 20px;
+  }
+
+#contact .btn:hover {
+    background-color: #5dcd53 !important;
+    color: #160101b0 !important;
+}
+
+#footer{
+    background-color: #201b2433;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
